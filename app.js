@@ -22,6 +22,6 @@ function validateAccount(account) {
 	return regex.test(account);
 }
 
-for (account of accounts) {
+for (let account of accounts) {
 	validateAccount(account);
 }
